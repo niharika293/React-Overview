@@ -9,10 +9,11 @@ import Header from './Components/Header'
 function App() {
   const x = false;
   return (
-    <div className="App">
+    <div className="Container">
       <h1>Hello From React</h1>
       <h2>Hello {x?'Yes':'No'}</h2>
-      <Header/>
+      <Header title = "Heyy header!!"/>
+      {/* <Header /> */}
     </div>
   );
 }
