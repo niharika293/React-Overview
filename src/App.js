@@ -10,16 +10,16 @@
 
 import React from 'react'
 import Header from './Components/Header'
+
 function App() {
   const x = false;
   return (
-    <div className="Container">
+    <div className="container">
       {/* Inline styling. */}
       {/* <h1 style = {{color : 'red'}}>Hello From React</h1> */}
-      <h1 style = {headingStyle}>Hello From React</h1>
-      <h2>Hello {x?'Yes':'No'}</h2>
-      <Header title = "Heyy header!!"/>
-      {/* <Header /> */}
+      {/* <h1 style = {headingStyle}>Hello From React</h1> */}
+      {/* <h2>Hello {x?'Yes':'No'}</h2> */}
+      <Header className='header' title = "Tasks Tracker"></Header>
     </div>
   );
 }
